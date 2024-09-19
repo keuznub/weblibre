@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: azure;
+    
+}
+section{
+    border: 1px solid black;
+    border-radius: 1em;
+    background-color: rgba(0, 0, 0, 0.137);
+    padding: 1em;
+}
+
+.buttons{
+    display: flex;
+    
+}
+
+.buttons > *{
+    width: 2em;
+    height: 2em;
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.437);
+    margin: 0.5em;
+    align-content: center;
+    cursor: pointer;
+    
+}
+
+.editers{
+    display: flex;
+}
+.editers > *{
+    width: 2em;
+    height: 2em;
+    border: 1px solid black;
+    background-color: white;
+    margin: 0.5em;
+    align-content: center;
+    
+
+}
+
+.results{
+    display: flex;
+    justify-content: center;
+}
+
+.results > *{
+
+    width: 4em;
+    height: 2em;
+    border: 1px solid black;
+    margin: 0.5em;
+    background-color: rgba(255, 255, 255, 0.437);
+    align-content: center;
+}
+
+
