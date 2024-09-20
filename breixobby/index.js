@@ -1,9 +1,11 @@
 const buttons = document.querySelectorAll('.button')
-
+const editors = document.querySelector('editors')
 for(let i of buttons){
     let operation = i.getAttribute('data-operation')
     i.addEventListener('click',() => calculo(operation))
 }
+
+
 
 function calculo(operation){
     let number1 = document.querySelector('.numberEdit1')
